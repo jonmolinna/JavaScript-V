@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #1E2127;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-1 {
+    color: rgb(232, 234, 237);
+    font-weight: 100;
+}
+
+.content {
+    display: flex;
+    width: 70%;
+    background-color: #292a2d;
+    border-radius: 9px;
+    border: 3px solid #292a2d;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+}
+
+.title-3 {
+    color: rgb(232, 234, 237);
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-form label {
+    color: rgb(232, 234, 237);
+    margin-bottom: 9px;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.content-form input {
+    height: 25px;
+    margin-bottom: 9px;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+
+.content-form button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    background-color: rgb(57, 160, 207);
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.content-lists {
+    width: 100%;
+}
+
+.content-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #161719;
+    height: 40px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.content-list-detail {
+    color: whitesmoke;
+}
+
+.content-list-price {
+    color: whitesmoke;
+    background-color: rgb(119, 158, 231);
+    border-radius: 20%;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.content-details {
+    width: 100%;
+    background-color: #1E2127;
+    border: 3px solid #1E2127;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.content-details p {
+    color: rgb(232, 234, 237);
+    margin-left: 10px;
+}
+
+#presupuesto {
+    background-color: rgb(57, 160, 207);
+    border-radius: 30px;
+    color:#fff;
+}
+
+.mensaje {
+    width: 100%;
+    height: 28px;
+    margin: 5px;
+    background-color: rgb(119, 207, 178);
+    color: #000;
+    font-size: 1.1rem;
+    text-align: center;
+    border: 1px solid rgb(119, 207, 178);
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.none {
+    display: none;
+}
