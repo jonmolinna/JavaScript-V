@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: #1E2127;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.title-1 {
+    color: #f4f4f4;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.title-2 {
+    color: #f4f4f4;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container__left {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+    background-color: #292a2d;
+    border: 1px solid #292a2d;
+    border-radius: 10px;
+    padding: 0px 40px;
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container__form input {
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.container__form button {
+    height: 40px;
+    border-radius: 25px;
+    background-color: royalblue;
+    font-size: 1.2rem;
+    color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.container__right {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.container__list {
+    display: flex;
+    height: 40px;
+    background-color: #161719;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f4f4f4;
+    align-items: center;
+}
+
+.btn{
+    height: 30px;
+    color: #fff;
+    background-color: rgb(236, 68, 68);
+}
+
+.container__details {
+    display: flex;
+    flex: 0.95;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.container__details p {
+    color: #f4f4f4;
+}
+
+.mensaje {
+    width: 100%;
+    margin-bottom: 1.9rem;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.message__success {
+    background-color: rgb(57, 129, 57);
+}
+
+.message__delete {
+    background-color: rgb(218, 65, 60);
+}
+
+.none {
+    display: none;
+}
