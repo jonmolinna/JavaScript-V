@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="title-1">Crud de Productos</h1>
+
+        <span class="msg none"></span>
+
+        <form class="form">
+            <input type="text" placeholder="Name Product" id="name">
+            <input type="text" placeholder="Price Product" id="price">
+            <select name="" id="category">
+                <option value="">Seleccione</option>
+                <option value="Frutas">Frutas</option>
+                <option value="Abarrotes">Abarrotes</option>
+                <option value="Verduras">Verduras</option>
+                <option value="Carne">Carne</option>
+            </select>
+            <input type="number" placeholder="Stock Product" id="stock">
+            <button class="btn-add">Agregar</button>
+        </form>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Codigo</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Categoria</th>
+                    <th>Stock</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>
