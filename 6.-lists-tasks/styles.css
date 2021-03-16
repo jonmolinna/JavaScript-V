@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: #292a2d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-top: 30px;
+    width: 30%;
+    background-color: #1E2127;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.form input {
+    flex: 0.8;
+    height: 1.5rem;
+    font-size: 1rem;
+}
+
+.form select {
+    flex: 0.2;
+    font-size: 1rem;
+}
+
+.count-taks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.info-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161719;
+    width: 130px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+}
+
+.list-tasks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #524f4f;
+}
+
+.task p {
+    color: #f4f4f4;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.task span {
+    background-color: rgb(160, 25, 25);
+    color: #f4f4f4;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text-1 {
+    color: #f4f4f4;
+    font-size: 1.9rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.text-3 {
+    color: #f4f4f4;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.text-5 {
+    color: #f4f4f4;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
