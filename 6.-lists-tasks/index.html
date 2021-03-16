@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1 class="text-1">TO-DOS</h1>
+
+            <div class="count-taks">
+                <section class="info-task">
+                    <h3 class="text-3">General</h3>
+                    <h5 class="text-5" id="numGeneral"></h5>
+                </section>
+                <section class="info-task">
+                    <h3 class="text-3">Casa</h3>
+                    <h5 class="text-5" id="numCasa"></h5>
+                </section>
+                <section class="info-task">
+                    <h3 class="text-3">Trabajo</h3>
+                    <h5 class="text-5" id="numTrabajo"></h5>
+                </section>
+            </div>
+
+            <form class="form">
+                <input type="text" id="tarea" placeholder="Crear una nueva Tarea">
+                <select id="option">
+                    <option value="">Seleccione</option>
+                    <option value="General">General</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Trabajo">Trabajo</option>
+                </select>  
+            </form>
+
+            <section class="list-tasks">
+
+            </section>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
