@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: #757575;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-top: 2.5rem;
+    width: 350px;
+    padding: 15px;
+    background: #9e9e9e;
+    border-radius: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form input, button {
+    margin-bottom: 0.5rem;
+    height: 1.9rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.form button {
+    background: #66bb6a;
+}
+
+.tabla {
+    margin-top: 2.5rem;
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th, td {
+    border: 1px solid #6b6b6b;
+}
+
+th {
+    background-color: #ad1457;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #e7e7e7;
+}
+
+td {
+    background-color: #313030;
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    height: 2rem;
+}
+
+.btn {
+    margin: auto;
+    height: 1.5rem;
+    width: 4.5rem;
+    font-size: 0.9rem;
+    color: #f4f4f4;
+}
+
+.btn-delit {
+    background-color: #c62828;
+}
+
+.btn-update {
+    background-color: #388e3c;
+}
