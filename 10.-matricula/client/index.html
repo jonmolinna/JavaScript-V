@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <form class="form">
+                <input type="text" placeholder="Nombre" name="name">
+                <input type="text" placeholder="Apellidos" name="apellido">
+                <input type="text" placeholder="Telefono" name="telefono">
+                <input type="date" name="date">
+                <input type="hidden" name="id">
+                <button>Guardar</button>
+            </form>
+        </div>
+
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Telefono</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody class="tbody">                
+            </tbody>
+
+        </table>
+    </div>
+
+    <template id="crud-matricula">
+        <tr>
+            <td class="name"></td>
+            <td class="apellido"></td>
+            <td class="phone"></td>
+            <td class="fecha"></td>
+            <td>
+                <button class="btn btn-delit">Eliminar</button>
+                <button class="btn btn-update">Editar</button>
+            </td>
+        </tr>
+    </template>
+
+    <!-- CDN AXIOS --->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+
+</body>
+</html>
