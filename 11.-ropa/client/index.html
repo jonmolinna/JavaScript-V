@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="text-1">Informacion del Producto</h1>
+        <form class="form">
+            <input type="text" placeholder="Nombre del Producto" name="name">
+            <input type="number" placeholder="Stock" name="stock" min="0">
+            <input type="text" placeholder="Precio" name="precio">
+            <select name="fabrica" id="">
+                <option value="">Seleccione Fabricante</option>
+                <option value="Lacoste">Lacoste</option>
+                <option value="Kendra">Kendra</option>
+                <option value="Lee">Lee</option>
+                <option value="Suprime">Suprime</option>
+                <option value="Adams">Adams</option>
+            </select>
+            <select name="category" id="">
+                <option value="">Seleccione Categoria</option>
+                <option value="Polos">Polos</option>
+                <option value="Drills">Drills</option>
+                <option value="Jeans">Jeans</option>
+                <option value="Poleras">Poleras</option>
+                <option value="Cazacas">Cazacas</option>
+            </select>
+            <select name="estado" id="">
+                <option value="">Seleccione Estado</option>
+                <option value="true">Disponible</option>
+                <option value="false">No Disponible</option>
+            </select>
+            <input type="date" name="date">
+            <input type="hidden" name="id">
+            <button class="btn-save">Guardar</button>
+        </form>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Stock</th>
+                    <th>Precio</th>
+                    <th>Fabricante</th>
+                    <th>Categoria</th>
+                    <th>Estado</th>
+                    <th>Fecha de Compra</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="list-table">
+            </tbody>
+        </table>
+    </div>
+
+    <template id="crud-ropa">
+        <tr>
+            <td class="name">Polos Blanco TM</td>
+            <td class="stock">12</td>
+            <td class="precio">20.40</td>
+            <td class="fabrica">Lacoste</td>
+            <td class="category">Polo</td>
+            <td class="estado">Disponible</td>
+            <td class="fecha">12-20-2020</td>
+            <td>
+                <button class="btn btn-delete">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                </button>
+                <button class="btn btn-update">
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                </button>
+            </td>
+        </tr>
+    </template>
+
+    <!-- CDN AXIOS --->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
